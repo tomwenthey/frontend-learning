@@ -42,7 +42,7 @@ function debounce(func, wait) {
 
 1. this丢失
 
-   在getUserAction方法中打印this，在没有使用debounce1.0的时候，值为<div id="container"></div>，使用了debounce1.0后，值为window对象。
+   在getUserAction方法中打印this，在没有使用debounce1.0的时候，值为div结点，使用了debounce1.0后，值为window对象。
 
    ~~~js
    // v1.1
