@@ -1,0 +1,21 @@
+.pagination {
+  list-style: none;
+}
+
+.pagination-item {
+  display: inline-block;
+  margin: 5px;
+}
+
+.pagination a{
+  color: #888;
+  text-decoration: none;
+  padding: 4px 10px;
+}
+
+
+.pagination-item .current, .pagination a:hover {
+  border-radius: 40%;
+  background-color: #eee;
+  color: green;
+}
